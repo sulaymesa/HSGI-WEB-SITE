@@ -1,0 +1,88 @@
+export default function App() {
+  return (
+    <div>
+
+      {/* HERO */}
+      <section className="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-blue-50 to-green-50 p-6">
+        <h1 className="text-4xl font-bold mb-4">
+          HSGI INGENIERÍA SAS
+        </h1>
+        <p className="text-xl max-w-xl">
+          Ingeniería con propósito. Precisión BIM para construir el futuro.
+        </p>
+
+        <button className="mt-6 bg-secondary text-white px-6 py-3 rounded">
+          Contáctanos
+        </button>
+      </section>
+
+      {/* PROBLEMA */}
+      <section className="p-10">
+        <h2 className="text-3xl font-bold mb-4">El Problema</h2>
+        <p>
+          El sector de la construcción en Latinoamérica enfrenta exigencias BIM,
+          pero existe escasez de firmas especializadas en redes de fluidos con coordinación digital.
+        </p>
+      </section>
+
+      {/* SOLUCIÓN */}
+      <section className="p-10 bg-gray-100">
+        <h2 className="text-3xl font-bold mb-4">Nuestra Solución</h2>
+        <p>
+          Servicios BIM especializados en conducción de fluidos bajo estándares ISO 19650,
+          reduciendo reprocesos y tiempos constructivos.
+        </p>
+      </section>
+
+      {/* VALOR */}
+      <section className="p-10">
+        <h2 className="text-3xl font-bold mb-4">Propuesta de Valor</h2>
+        <ul>
+          <li>✔ Especialización técnica BIM + fluidos</li>
+          <li>✔ Estándares internacionales</li>
+          <li>✔ Coordinación digital remota</li>
+        </ul>
+      </section>
+
+      {/* SERVICIOS */}
+      <section className="p-10 bg-gray-100">
+        <h2 className="text-3xl font-bold mb-4">Servicios</h2>
+        <p>
+          Hidrosanitario, gas, incendio, acueducto y alcantarillado bajo BIM.
+        </p>
+      </section>
+
+      {/* CLIENTES */}
+      <section className="p-10">
+        <h2 className="text-3xl font-bold mb-4">Validación</h2>
+        <p>
+          Más de 500,000 m² diseñados bajo metodología BIM en Colombia.
+        </p>
+      </section>
+
+      {/* CONTACTO */}
+      <section className="p-10 bg-gray-100">
+        <h2 className="text-3xl font-bold mb-4">Contacto</h2>
+
+        <div className="max-w-md mx-auto grid gap-4">
+          <input placeholder="Nombre" className="border p-2" />
+          <input placeholder="Correo" className="border p-2" />
+          <input placeholder="Compañía" className="border p-2" />
+          <input placeholder="Teléfono" className="border p-2" />
+
+          <button className="bg-primary text-white p-3">
+            Enviar
+          </button>
+        </div>
+      </section>
+
+      {/* FOOTER */}
+      <footer className="bg-gray-800 text-white text-center p-6">
+        <p>HSGI INGENIERÍA SAS</p>
+        <p>{new Date().getFullYear()}</p>
+      </footer>
+
+    </div>
+  );
+}
+``
